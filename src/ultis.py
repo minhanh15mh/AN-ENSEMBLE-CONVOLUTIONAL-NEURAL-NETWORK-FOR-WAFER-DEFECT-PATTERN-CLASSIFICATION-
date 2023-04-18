@@ -4,6 +4,7 @@ import os
 from torchvision import transforms
 from PIL import Image
 from sklearn.preprocessing import LabelEncoder
+
 def make_datapath_list(directory):
   data = []
   label = []
