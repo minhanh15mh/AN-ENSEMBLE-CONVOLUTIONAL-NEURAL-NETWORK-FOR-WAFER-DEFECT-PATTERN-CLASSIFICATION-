@@ -1,0 +1,8 @@
+{
+	"data_train_path": "E:/University/Thesis/Thesis_Code/WM_image/Train",
+	"data_val_path" : "E:/University/Thesis/Thesis_Code/WM_image/Valid",
+	"save_model_path": "E:/University/Thesis/Thesis_Code/SavedModel/",
+	"batch_size": 64,
+	"num_epochs": 1
+
+}
