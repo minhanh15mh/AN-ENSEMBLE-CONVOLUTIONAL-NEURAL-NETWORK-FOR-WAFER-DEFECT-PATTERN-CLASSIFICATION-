@@ -1,6 +1,6 @@
 {
 	
-	"data_test_path" : "E:/University/Thesis/Thesis_Code/WM_image/Test",
+	"data_test_path" : "./WM_image/Test",
 	"batch_size": 64
 
 
