@@ -21,5 +21,18 @@ Diagram below shows proposed framework for study and is described in more detail
 
 <img width="465" alt="Screenshot 2023-05-20 212354" src="https://github.com/minhanh15mh/AN-ENSEMBLE-CONVOLUTIONAL-NEURAL-NETWORK-FOR-WAFER-DEFECT-PATTERN-CLASSIFICATION-/assets/86044915/35b2be8a-0682-4bd7-a1fc-b0e12f4a123b">
 
+# Experiment result
+These pictures below illustrate the confusion maxtrix of three pretrained CNN models (Resnet 18, GoogleNet, MobilenetV2) used in this project. The experiment indicates that the MobilenetV2 model has the highest performance among three models.
 
 
+![resnet18](https://github.com/minhanh15mh/CONVOLUTIONAL-NEURAL-NETWORK-FOR-WAFER-DEFECT-PATTERN-CLASSIFICATION-/assets/86044915/1a76b922-a155-41fc-a107-82bdc69ad404)
+
+The confusion matrix of Resnet 18 model
+
+![googlenet](https://github.com/minhanh15mh/CONVOLUTIONAL-NEURAL-NETWORK-FOR-WAFER-DEFECT-PATTERN-CLASSIFICATION-/assets/86044915/200554fa-2bf2-4b7c-82a0-c7ed1cf1f466)
+
+The confusion matrix of GoogleNet model
+
+![mobilenetv2](https://github.com/minhanh15mh/CONVOLUTIONAL-NEURAL-NETWORK-FOR-WAFER-DEFECT-PATTERN-CLASSIFICATION-/assets/86044915/c3c121f0-6648-4272-8877-542ae211f8f3)
+
+The confusion matrix of MobilenetV2 model
