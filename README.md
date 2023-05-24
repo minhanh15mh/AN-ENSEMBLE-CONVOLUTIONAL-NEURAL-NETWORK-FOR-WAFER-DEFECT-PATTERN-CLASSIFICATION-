@@ -36,3 +36,7 @@ The confusion matrix of GoogleNet model
 ![mobilenetv2](https://github.com/minhanh15mh/CONVOLUTIONAL-NEURAL-NETWORK-FOR-WAFER-DEFECT-PATTERN-CLASSIFICATION-/assets/86044915/c3c121f0-6648-4272-8877-542ae211f8f3)
 
 The confusion matrix of MobilenetV2 model
+
+# Deploy model using streamlit
+
+https://github.com/minhanh15mh/CONVOLUTIONAL-NEURAL-NETWORK-FOR-WAFER-DEFECT-PATTERN-CLASSIFICATION-/assets/86044915/180e1425-cb64-45ba-a771-c381f12ffea1
