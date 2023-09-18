@@ -16,10 +16,9 @@ The dataset WM – 811k was used in this study which has been published since 20
 The picture below illustrates the total classes in dataset.
 ![image](https://github.com/minhanh15mh/AN-ENSEMBLE-CONVOLUTIONAL-NEURAL-NETWORK-FOR-WAFER-DEFECT-PATTERN-CLASSIFICATION-/assets/86044915/5dedbbaa-47a7-4bf2-a32b-7408ebbb5f90)
 
-# Methodology 
-Diagram below shows proposed framework for study and is described in more detail as follows. First, since the dataset is highly imbalanced, the vast majority of the None class will be dropped randomly until it balances with the samples of minorities. In this experiment, the total samples of each class equal to 300. Then the balanced training dataset is applied to three individual CNN models (Resnet 18, Googlenet, MobilenetV2) for classification. To enhance the performance of classification, the result of three individual CNN models will be grouped in ensemble model. Finally, the model performance is evaluated by three popular measures for imbalanced problems: recall, precision, and F1- score.  
+First, since the dataset is highly imbalanced, the vast majority of the None class will be dropped randomly until it balances with the samples of minorities. In this experiment, the total samples of each class equal to 300. Then the balanced training dataset is applied to three individual CNN models (Resnet 18, Googlenet, MobilenetV2) for classification. To enhance the performance of classification, the result of three individual CNN models will be grouped in ensemble model.
 
-<img width="465" alt="Screenshot 2023-05-20 212354" src="https://github.com/minhanh15mh/AN-ENSEMBLE-CONVOLUTIONAL-NEURAL-NETWORK-FOR-WAFER-DEFECT-PATTERN-CLASSIFICATION-/assets/86044915/35b2be8a-0682-4bd7-a1fc-b0e12f4a123b">
+![Ensemble](https://github.com/minhanh15mh/AN-ENSEMBLE-CONVOLUTIONAL-NEURAL-NETWORK-FOR-WAFER-DEFECT-PATTERN-CLASSIFICATION-/assets/86044915/337a8018-522c-4652-9ddd-a996f2cf3a5b)
 
 # Experiment result
 These pictures below illustrate the confusion maxtrix of three pretrained CNN models (Resnet 18, GoogleNet, MobilenetV2) used in this project. The experiment indicates that the MobilenetV2 model has the highest performance among three models.
