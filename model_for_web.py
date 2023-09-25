@@ -3,10 +3,8 @@ import torch.nn as nn
 from torchvision import models, transforms
 
 def load_model(): 
-    mobilenetV2_model= models.mobilenet_v2(pretrained = True)
-    mobilenetV2_model.classifier[1] = nn.Linear(mobilenetV2_model.classifier[1].in_features, out_features=9)
-    mobilenetV2_model.load_state_dict(torch.load(r'.\SavedModel\mobilenetv2_SGD_20epoch.pth'))
-    return mobilenetV2_model
+    ensembleCNN_model.load_state_dict(torch.load(r'.\SavedModel\ensemble_20epoch.pth'))
+    return ensembleCNN_model
 
 def predict_WM(model, img_input):
     label = ['Center', 'Donut', 'Edge Loc', 'Edge Ring', 'Loc', 'Random', 'Scratch', 'NearFull', 'None']
